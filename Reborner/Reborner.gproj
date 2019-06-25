@@ -1,0 +1,83 @@
+<project>
+ <properties windowWidth="0" osx_domain="giderosmobile.com" logicalWidth="320" osx_signingId="" retinaDisplay="0" win_domain="giderosmobile.com" touchToMouse="1" mouseTouchOrder="0" html5_symbols="0" encryptCode="0" ios_bundle="com.yourdomain." version_code="1" html5_host="" win_org="GiderosMobile" splashScaleMode="0" html5_mem="256" html5_fbload="100" build_number="1" html5_fbinstant="0" tv_icon="" fps="60" exportMode="0" logicalHeight="480" iosDevice="0" disableSplash="1" backgroundColor="#ffffff" android_template="0" winrt_org="GiderosMobile" html5_pack="0" packageName="com.yourdomain.yourapp" app_icon="" html5_wasm="0" vsync="0" app_name="" osx_bundle="com.yourdomain." osx_org="GiderosMobile" scaleMode="5" osx_category="5" mouseToTouch="1" windowHeight="0" version="1.0" winrt_package="com.yourdomain.yourapp" osx_installerId="" encryptAssets="0" orientation="1" autorotation="0" architecture="0" splash_v_image="" splash_h_image="">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <folder name="Art">
+  <file source="art/Hand.png"/>
+  <file source="art/Mascott.png"/>
+  <file source="art/bg.png"/>
+  <file source="art/block.png"/>
+  <file source="art/bplay_0.png"/>
+  <file source="art/bplay_1.png"/>
+  <file source="art/left1.png"/>
+  <file source="art/left2.png"/>
+  <file source="art/pl_but1.png"/>
+  <file source="art/pl_but2.png"/>
+  <file source="art/right1.png"/>
+  <file source="art/right2.png"/>
+  <file source="art/shadow.png"/>
+  <file source="art/skull_0.png"/>
+  <file source="art/skull_1.png"/>
+  <file source="art/stoned.png"/>
+  <file source="art/textmap.png"/>
+  <file source="art/title.png"/>
+  <file source="art/up.png"/>
+ </folder>
+ <folder name="Classes">
+  <file source="classes/AceSlide.lua"/>
+  <file excludeFromExecution="1" source="classes/GiderosCodingEasy.lua"/>
+  <file source="classes/Music.lua"/>
+  <file source="classes/Popup.lua"/>
+  <file source="Shadow.lua"/>
+  <file source="classes/Sounds.lua"/>
+  <file source="classes/TextWrap.lua"/>
+  <file source="classes/View.lua"/>
+  <file source="classes/button.lua"/>
+  <file source="classes/dataSaver.lua"/>
+  <file source="classes/easing.lua"/>
+  <file source="classes/gtween.lua"/>
+  <file source="classes/scenemanager.lua"/>
+ </folder>
+ <folder name="OtherAssets">
+  <file source="tahoma.ttf"/>
+ </folder>
+ <folder name="Textures">
+  <file source="assets/StatueCrumble.png"/>
+  <file source="assets/StatueCrumble.txt"/>
+  <file source="assets/Tileset.png"/>
+  <file source="assets/Tileset.txt"/>
+  <file source="art/Zombie.png"/>
+  <file source="art/Zombie.txt"/>
+  <file source="assets/crumbs.png"/>
+  <file source="assets/crumbs.txt"/>
+  <file source="assets/font.png"/>
+  <file source="assets/font.txt"/>
+  <file source="assets/labels.png"/>
+  <file source="assets/labels.txt"/>
+  <file source="assets/maps.png"/>
+  <file source="assets/maps.txt"/>
+ </folder>
+ <file name="assets/StatueCrumble.png"/>
+ <file name="assets/StatueCrumble.txt"/>
+ <file name="assets/Tileset.png"/>
+ <file name="assets/Tileset.txt"/>
+ <file source="config.lua"/>
+ <file name="assets/crumbs.png"/>
+ <file name="assets/crumbs.txt"/>
+ <file name="assets/fnt.png"/>
+ <file name="assets/fnt.txt"/>
+ <file name="assets/font.png"/>
+ <file name="assets/font.txt"/>
+ <file name="assets/labels.png"/>
+ <file name="assets/labels.txt"/>
+ <file source="level.lua"/>
+ <file source="main.lua"/>
+ <file source="map.lua"/>
+ <file name="assets/maps.png"/>
+ <file name="assets/maps.txt"/>
+ <file source="options.lua"/>
+ <file source="start.lua"/>
+ <dependency from="level.lua" to="classes/GiderosCodingEasy.lua"/>
+</project>
