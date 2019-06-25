@@ -32,10 +32,3 @@ stage:addChild(sceneManager)
 
 --start start scene
 sceneManager:changeScene("start", 1, conf.transition, conf.easing)
-
---- scene --
--- meniu principal  ]
-	-- maps         ]  - same scene
-	-- level select ]
-	
-	-- level itself - dif scene....saaaau...sa fie totul pe o scena? nush ce sa zic... Ar fi mai usor teoretic totul pe o scena.. <- idiot
